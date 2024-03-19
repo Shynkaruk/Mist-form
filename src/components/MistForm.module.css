@@ -1,0 +1,119 @@
+
+
+.form { 
+    max-width: 600px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+    margin: 50px auto;
+    font-family: Daikon, sans-serif;
+    padding: 30px 20px;
+}
+
+.main_form {
+    padding: 5px;
+}
+
+.main_form select {
+    width: 102%; 
+    padding: 3px; 
+    font-size: 14px; 
+    border: 2px solid gray; 
+    border-radius: 7px; 
+    background-color: #ffffff; 
+    color: black; 
+    outline: none; 
+}
+
+.main_form select:focus {
+    border-color: black; 
+}
+
+.checkbox_wrapper {
+    display: flex;
+    align-items: center; 
+}
+
+
+.main_form input,
+.main_form textarea {
+    width: 100%;
+    padding: 3px;
+    font-size: 12px;
+    font-family: Daikon, sans-serif;
+}
+
+.main_form input {
+    border: 2px solid gray;
+    border-radius: 6px;
+}
+
+.required {
+    color: red; 
+    margin-left: 5px; 
+}
+
+
+.main_form input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+    margin-top: 10px;
+    margin-right: 5px; 
+}
+
+.main_form label {
+    margin-top: 13px;
+    font-weight: 600;
+    margin-bottom: 3px;
+    font-size: 14px;
+    display: block;
+}
+
+.form_error {
+    color: red;
+    font-size: 13px;
+}
+
+.buttons {
+    padding-top: 10px
+}
+
+.btn_submit {
+    background-color: black; 
+    color: #ffffff; 
+    padding: 5px 80px;
+    margin-left: 126px; 
+    font-size: 14px; 
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 7px; 
+    cursor: pointer; 
+}
+
+.btn_clear {
+    background-color: white; 
+    border: 1px solid rgb(0, 0, 0);
+    color: #000000; 
+    padding: 5px 80px; 
+    font-size: 14px; 
+    border-radius: 7px; 
+    cursor: pointer; 
+}
+
+.fixed_textarea {
+    resize: none; 
+    overflow: hidden;
+    height: 100px;
+}
+
+
+
+.form_header {
+    text-align: center;
+}
+
+.form_header img {
+    -webkit-user-drag: none;
+}
+
+
+

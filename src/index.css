@@ -1,0 +1,13 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@font-face {
+  font-family: Daikon;
+  src: url(https://mist-next.vercel.app/_next/static/media/Daikon-Regular.ba81ac23.otf) format("opentype");
+  font-display: swap
+}
+
+:root {
+  overflow: hidden;
+}
